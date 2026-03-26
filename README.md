@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ETH-USD Multi-Timeframe ML Trading Strategies
 
 A collection of machine learning-based trading strategies for Ethereum (ETH-USD) across multiple timeframes, using ensemble models with optimized stop-loss mechanisms.
@@ -20,14 +21,12 @@ This project implements algorithmic trading strategies that leverage ensemble ma
 
 ## Features
 
-- **Ensemble ML Models**: Utilizes top-performing models including:
   - LightGBM
   - Random Forest
   - AdaBoost
   - CNN (Convolutional Neural Networks)
   - LSTM (Long Short-Term Memory)
 
-- **Technical Indicators** (31 features):
   - Trend: EMA, SMA (10, 20, 50), Parabolic SAR
   - Momentum: RSI, ROC, CCI, MACD (with signal & histogram)
   - Volatility: ATR, Bollinger Bands, Standard Deviation
@@ -35,13 +34,11 @@ This project implements algorithmic trading strategies that leverage ensemble ma
   - Price Action: Log returns, Lag features (1-5)
   - Higher Timeframe: Daily close, return, and log return
 
-- **Risk Management**:
   - Configurable stop-loss percentages
   - Trading cost modeling (0.1% default)
   - Grid search optimization for buy/sell thresholds
   - Stop-loss priority over sell signals
 
-- **Backtesting Framework**:
   - Balance-based position sizing
   - Detailed trade history tracking
   - Performance metrics and optimization
@@ -97,10 +94,6 @@ To train the models used in these strategies, please refer to the following repo
 ## Grid Search Optimization
 
 Each notebook includes parameter optimization:
-- Buy thresholds: 0.50 to 0.80 (16 values)
-- Sell thresholds: 0.20 to 0.49 (15 values)
-- Stop losses: 1% to 5% (9 values)
-- Total combinations tested: 2,160
 
 ## Disclaimer
 
@@ -109,3 +102,7 @@ This project is for educational and research purposes only. Cryptocurrency tradi
 ## License
 
 MIT License
+=======
+# eth-ml-multi-timeframe-trading
+A collection of machine learning-based trading strategies for Ethereum (ETH-USD) across multiple timeframes, using ensemble models with optimized stop-loss mechanisms.
+>>>>>>> f90d691d80994c06505849f40890ae5e6eac8a73
