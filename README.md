@@ -58,6 +58,11 @@ scikit-learn
 ta-lib
 ```
 
+## Model Training
+
+To train the models used in these strategies, please refer to the following repository:
+[Model Training Repository](https://github.com/your-username/your-training-repo)
+
 ## Usage
 
 1. **Load Pre-trained Models**: Each notebook loads models from a `results/` folder containing:
